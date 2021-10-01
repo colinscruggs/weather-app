@@ -1,0 +1,21 @@
+.current-weather {
+  position: absolute;
+  display: inline-flex;
+  z-index: 3;
+  margin: 1em 2em;
+  justify-content: space-between;
+  width: calc(100% - 4em);
+}
+
+.current-temperature {
+  display: flex;
+}
+
+.current-temperature > *:not(:first-child) {
+  padding-left: 0.75em;
+}
+
+.current-conditions {
+  display: flex;
+  flex-direction: column;
+}

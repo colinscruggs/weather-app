@@ -1,0 +1,21 @@
+.forecast {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forecast > .forecast-tile:not(:last-child) {
+  border-right: 1px solid var(--divider-color);
+}
+
+.forecast-tile {
+  background-color: white;
+  height: 7em;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+
+/* TODO: add media queries */

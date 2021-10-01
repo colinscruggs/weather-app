@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from '../App';
+import App from '../containers/App';
 
 // TODO: write basic test cases
 test('renders weather app container', () => {

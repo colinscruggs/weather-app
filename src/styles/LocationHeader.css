@@ -1,0 +1,23 @@
+.location-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  position: relative;
+  bottom: 3em;
+}
+
+.location-header > span {
+  color: #ffffff;
+}
+
+.location-city {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.current-date {
+  font-size: 12px;
+}

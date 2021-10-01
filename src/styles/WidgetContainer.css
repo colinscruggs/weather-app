@@ -1,0 +1,16 @@
+.widget-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1.66em;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0px 0px 14px 0px rgba(40, 40, 40, 0.50);
+}
+
+.widget-container img {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+  box-shadow: 0 -6px 10px 8px rgb(40 40 40 / 30%);
+}
